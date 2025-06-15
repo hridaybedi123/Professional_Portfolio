@@ -48,7 +48,7 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300 scale-110"></div>
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-white dark:border-gray-700 shadow-xl mx-auto transform group-hover:scale-105 transition-transform duration-300">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                src="images\profile.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
@@ -62,13 +62,13 @@ export function Hero() {
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white">
               <span className="block">Hi, I'm</span>
               <span className="block bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-pulse">
-                Alex Johnson
+                Harry Bedi
               </span>
             </h1>
             
             <div className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
               <p className="mb-2">A passionate</p>
-              <span className="font-semibold text-blue-600 dark:text-blue-400 inline-block min-w-[280px] text-left">
+              <span className="font-semibold text-blue-600 dark:text-blue-400 inline-block min-w-[280px] text-center">
                 {roles[currentRole]}
               </span>
               <p className="mt-2">

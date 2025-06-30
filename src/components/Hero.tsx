@@ -148,7 +148,7 @@ export function Hero() {
         {/* Enhanced Scroll Indicator */}
         <button
           onClick={scrollToAbout}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:animate-pulse transition-all duration-300 group"
+          className="bottom-32 left-1/2 transform -translate-x-1/2 animate-bounce transition-all duration-300 group"
           aria-label="Scroll to about section"
         >
           <div className="flex flex-col items-center gap-2">
